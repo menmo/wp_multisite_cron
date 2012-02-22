@@ -1,0 +1,79 @@
+# Copyright (C) 2012 WordPress Multisite cron
+# This file is distributed under the same license as the WordPress Multisite cron package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Multisite cron \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp_multisite_cron\n"
+"POT-Creation-Date: 2012-02-22 08:14:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wp_multisite_cron.php:56
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: wp_multisite_cron.php:72
+msgid "Settings saved."
+msgstr ""
+
+#: wp_multisite_cron.php:82
+msgid "Multisite"
+msgstr ""
+
+#: wp_multisite_cron.php:83
+msgid "Your WordPress installation is not configured as multisite"
+msgstr ""
+
+#: wp_multisite_cron.php:84
+msgid ""
+"Read the WordPress' documentation about multisite to learn how to set up "
+"multisite"
+msgstr ""
+
+#: wp_multisite_cron.php:84
+msgid "here"
+msgstr ""
+
+#: wp_multisite_cron.php:91
+msgid "WordPress default cron system"
+msgstr ""
+
+#: wp_multisite_cron.php:92
+msgid "You must disable the WordPress cron system, to use this extension"
+msgstr ""
+
+#: wp_multisite_cron.php:93
+msgid "Add the following code in your wp-config.php"
+msgstr ""
+
+#: wp_multisite_cron.php:102
+msgid "Set-up WordPress multisite cron"
+msgstr ""
+
+#: wp_multisite_cron.php:103
+msgid "Add the following line in your crontab"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Multisite cron"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/chibani/wp_multisite_cron"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin to handle multisite cron"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "LoicG"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://blog.loicg.net/"
+msgstr ""

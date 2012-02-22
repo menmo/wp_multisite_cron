@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress multisite cron\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp_multisite_cron\n"
+"POT-Creation-Date: 2012-02-22 08:14:47+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: LoïcG <gerbaudloic@gmail.com>\n"
+"Language-Team: LoïcG <gerbaudloic@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: wp_multisite_cron.php:56
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: wp_multisite_cron.php:72
+msgid "Settings saved."
+msgstr ""
+
+#: wp_multisite_cron.php:82
+msgid "Multisite"
+msgstr ""
+
+#: wp_multisite_cron.php:83
+msgid "Your WordPress installation is not configured as multisite"
+msgstr "Votre installation WordPress n'est pas configurée en mode multisite"
+
+#: wp_multisite_cron.php:84
+msgid "Read the WordPress' documentation about multisite to learn how to set up multisite"
+msgstr "Lisez la documentation de WordPress à propos du multisite, pour apprendre à le mettre en place"
+
+#: wp_multisite_cron.php:84
+msgid "here"
+msgstr "ici"
+
+#: wp_multisite_cron.php:91
+msgid "WordPress default cron system"
+msgstr "Système de cron par défaut de WordPress"
+
+#: wp_multisite_cron.php:92
+msgid "You must disable the WordPress cron system, to use this extension"
+msgstr "Vous devez désactiver le système de cron de WordPress, pour utiliser cette extension"
+
+#: wp_multisite_cron.php:93
+msgid "Add the following code in your wp-config.php"
+msgstr "Ajoutez le code suivant dans votre fichier wp-config.php"
+
+#: wp_multisite_cron.php:102
+msgid "Set-up WordPress multisite cron"
+msgstr "Configuration de WordPress multisite cron"
+
+#: wp_multisite_cron.php:103
+msgid "Add the following line in your crontab"
+msgstr "Ajoutez la ligne suivante dans votre crontab"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Multisite cron"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/chibani/wp_multisite_cron"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin to handle multisite cron"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "LoicG"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://blog.loicg.net/"
+msgstr ""
+
