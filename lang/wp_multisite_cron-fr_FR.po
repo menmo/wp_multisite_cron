@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress multisite cron\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp_multisite_cron\n"
-"POT-Creation-Date: 2012-02-22 08:14:47+00:00\n"
+"POT-Creation-Date: 2012-03-03 11:06:14+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: LoïcG <gerbaudloic@gmail.com>\n"
 "Language-Team: LoïcG <gerbaudloic@gmail.com>\n"
@@ -14,47 +14,63 @@ msgstr ""
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: wp_multisite_cron.php:56
+#: wp_multisite_cron.php:78
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: wp_multisite_cron.php:72
+#: wp_multisite_cron.php:98
 msgid "Settings saved."
 msgstr ""
 
-#: wp_multisite_cron.php:82
+#: wp_multisite_cron.php:103
+msgid "Unable to update settings."
+msgstr "Enregistrement des réglages impossible."
+
+#: wp_multisite_cron.php:112
 msgid "Multisite"
 msgstr ""
 
-#: wp_multisite_cron.php:83
+#: wp_multisite_cron.php:113
 msgid "Your WordPress installation is not configured as multisite"
 msgstr "Votre installation WordPress n'est pas configurée en mode multisite"
 
-#: wp_multisite_cron.php:84
+#: wp_multisite_cron.php:114
 msgid "Read the WordPress' documentation about multisite to learn how to set up multisite"
 msgstr "Lisez la documentation de WordPress à propos du multisite, pour apprendre à le mettre en place"
 
-#: wp_multisite_cron.php:84
+#: wp_multisite_cron.php:114
 msgid "here"
 msgstr "ici"
 
-#: wp_multisite_cron.php:91
+#: wp_multisite_cron.php:121
 msgid "WordPress default cron system"
 msgstr "Système de cron par défaut de WordPress"
 
-#: wp_multisite_cron.php:92
+#: wp_multisite_cron.php:122
 msgid "You must disable the WordPress cron system, to use this extension"
 msgstr "Vous devez désactiver le système de cron de WordPress, pour utiliser cette extension"
 
-#: wp_multisite_cron.php:93
+#: wp_multisite_cron.php:123
 msgid "Add the following code in your wp-config.php"
 msgstr "Ajoutez le code suivant dans votre fichier wp-config.php"
 
-#: wp_multisite_cron.php:102
+#: wp_multisite_cron.php:135
+msgid "Concurrent crons"
+msgstr "Nombre de crons concurrents"
+
+#: wp_multisite_cron.php:136
+msgid "Lower it if some of your sites' cron don't run"
+msgstr "Abaissez cette valeur si les crons de certains de vos sites ne se lancent pas"
+
+#: wp_multisite_cron.php:145
+msgid "Save settings"
+msgstr ""
+
+#: wp_multisite_cron.php:153
 msgid "Set-up WordPress multisite cron"
 msgstr "Configuration de WordPress multisite cron"
 
-#: wp_multisite_cron.php:103
+#: wp_multisite_cron.php:154
 msgid "Add the following line in your crontab"
 msgstr "Ajoutez la ligne suivante dans votre crontab"
 
@@ -77,4 +93,7 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://blog.loicg.net/"
 msgstr ""
+
+#~ msgid "Fixes a limit to curl_multi_exec"
+#~ msgstr "Fixe une limit à curl_multi_exec"
 

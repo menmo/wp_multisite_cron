@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Multisite cron \n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp_multisite_cron\n"
-"POT-Creation-Date: 2012-02-22 08:14:47+00:00\n"
+"POT-Creation-Date: 2012-03-03 11:06:14+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,49 +12,65 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: wp_multisite_cron.php:56
+#: wp_multisite_cron.php:78
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: wp_multisite_cron.php:72
+#: wp_multisite_cron.php:98
 msgid "Settings saved."
 msgstr ""
 
-#: wp_multisite_cron.php:82
+#: wp_multisite_cron.php:103
+msgid "Unable to update settings."
+msgstr ""
+
+#: wp_multisite_cron.php:112
 msgid "Multisite"
 msgstr ""
 
-#: wp_multisite_cron.php:83
+#: wp_multisite_cron.php:113
 msgid "Your WordPress installation is not configured as multisite"
 msgstr ""
 
-#: wp_multisite_cron.php:84
+#: wp_multisite_cron.php:114
 msgid ""
 "Read the WordPress' documentation about multisite to learn how to set up "
 "multisite"
 msgstr ""
 
-#: wp_multisite_cron.php:84
+#: wp_multisite_cron.php:114
 msgid "here"
 msgstr ""
 
-#: wp_multisite_cron.php:91
+#: wp_multisite_cron.php:121
 msgid "WordPress default cron system"
 msgstr ""
 
-#: wp_multisite_cron.php:92
+#: wp_multisite_cron.php:122
 msgid "You must disable the WordPress cron system, to use this extension"
 msgstr ""
 
-#: wp_multisite_cron.php:93
+#: wp_multisite_cron.php:123
 msgid "Add the following code in your wp-config.php"
 msgstr ""
 
-#: wp_multisite_cron.php:102
+#: wp_multisite_cron.php:135
+msgid "Concurrent crons"
+msgstr ""
+
+#: wp_multisite_cron.php:136
+msgid "Lower it if some of your sites' cron don't run"
+msgstr ""
+
+#: wp_multisite_cron.php:145
+msgid "Save settings"
+msgstr ""
+
+#: wp_multisite_cron.php:153
 msgid "Set-up WordPress multisite cron"
 msgstr ""
 
-#: wp_multisite_cron.php:103
+#: wp_multisite_cron.php:154
 msgid "Add the following line in your crontab"
 msgstr ""
 
