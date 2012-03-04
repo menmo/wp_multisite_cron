@@ -77,10 +77,7 @@ class wp_multisite_cron{
      * The admin settings page
      */
     public static function admin_settings(){
-    	if (!current_user_can('manage_options'))  {
-			wp_die( __('You do not have sufficient permissions to access this page.') );
-		}
-		?>
+    	?>
 		<div class="wrap">
     		<div id="icon-options-general" class="icon32">
 				<br />
