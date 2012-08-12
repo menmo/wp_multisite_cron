@@ -185,7 +185,7 @@ class wp_multisite_cron{
 	    	$offset = 0;
 	    	
 	    	//Cut the 
-	    	while($blogs_slice = arrray_slice($blogs,$offset,$length)){
+	    	while($blogs_slice = array_slice($blogs,$offset,$length)){
     		
 	    		$offset += $length;
 	    		
@@ -194,10 +194,10 @@ class wp_multisite_cron{
 		    		$cron_url = site_url().'/wp-cron.php?doing_wp_cron';
 	
 		    		//Add the url to the stack
-		    		$chs[$blog_id]=curl_init();
+		    		$chs[$blog_id]=curl_init($cron_url);
 		    		curl_setopt($chs[$blog_id], CURLOPT_URL, $cron_url);
 		    		curl_setopt($chs[$blog_id], CURLOPT_HEADER, 0);
-		    		curl_multi_add_handle($mh, $ch);
+		    		curl_multi_add_handle($mh, $chs[$blog_id]);
 		    	}
 	    	
 		    	//Launch :)
