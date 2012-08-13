@@ -185,7 +185,7 @@ class wp_multisite_cron{
 	    	$offset = 0;
 	    	
 	    	//Cut the 
-	    	while($blogs_slice = arrray_slice($blogs,$offset,$length)){
+	    	while($blogs_slice = array_slice($blogs,$offset,$length)){
     		
 	    		$offset += $length;
 	    		
