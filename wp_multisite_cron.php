@@ -194,7 +194,7 @@ class wp_multisite_cron{
 		    		$cron_url = site_url().'/wp-cron.php?doing_wp_cron';
 	
 		    		//Add the url to the stack
-		    		$chs[$blog_id]=curl_init($cron_url);
+		    		$chs[$blog_id]=curl_init();
 		    		curl_setopt($chs[$blog_id], CURLOPT_URL, $cron_url);
 		    		curl_setopt($chs[$blog_id], CURLOPT_HEADER, 0);
 		    		curl_multi_add_handle($mh, $chs[$blog_id]);
