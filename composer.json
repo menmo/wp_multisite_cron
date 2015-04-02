@@ -1,0 +1,12 @@
+{
+    "name": "menmo/wp-multisite-cron",
+    "description": "WordPress plugin to easily use system cron (mostly when running on Linux/Unix).",
+    "keywords": ["wordpress", "plugin", "multisite", "cron"],
+    "type": "wordpress-plugin",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/menmo/wp_multisite_cron"
+        }
+    ]
+}
