@@ -218,11 +218,13 @@ class wp_multisite_cron{
      * @return array
      */
     public static function get_blogs_id(){
-    	global $wpdb;
-
     	//Get the blogs' ids for blogs that are public and active
-    	$blogs = $wpdb->get_col('SELECT blog_id FROM '.$wpdb->blogs.' WHERE public=1 AND deleted=0');
-    	return $blogs;
+	$blogs = wp_get_sites(array('public' => true, 'deleted' => false));
+	$blog_ids = array();
+	foreach($blogs as $blog) {
+		$blog_ids[] = $blog['blog_id'];
+	}
+    	return $blog_ids;
     }
     
 	/**
