@@ -179,13 +179,13 @@ class wp_multisite_cron{
     	//load the blogs id
     	$blogs = self::get_blogs_id();
     	if(count($blogs)){
-    		$mh = curl_multi_init();
 	    	
     		$length = self::get_option('concurrent_crons');
 	    	$offset = 0;
 	    	
 	    	//Cut the 
 	    	while($blogs_slice = array_slice($blogs,$offset,$length)){
+				$mh = curl_multi_init();
     		
 	    		$offset += $length;
 	    		
@@ -203,8 +203,8 @@ class wp_multisite_cron{
 		    	//Launch :)
 		    	$running = null;
 		    	do{
-		    		curl_multi_exec($mh, $still_running);
-		    	}while($still_running > 0);
+		    		curl_multi_exec($mh, $running);
+		    	}while($running > 0);
 		    	
 		    	curl_multi_close($mh);
 		    }
